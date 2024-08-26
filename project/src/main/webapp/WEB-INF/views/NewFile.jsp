@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body> 
-	 <h1>깃허브</h1> 
+	 <h1>깃허브</h1>연동하기321321
 </body>
 </html>
