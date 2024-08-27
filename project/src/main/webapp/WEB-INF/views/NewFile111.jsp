@@ -3,6 +3,6 @@
 <%@ include file="/WEB-INF/views/MAIN/header.jsp"%>
 	
 
-ddddddhhhhhhh 
+ddddddhhhhhhh 지여니
 
 <%@ include file="/WEB-INF/views/MAIN/footer.jsp"%>
