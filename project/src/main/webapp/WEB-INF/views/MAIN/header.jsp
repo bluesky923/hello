@@ -11,10 +11,12 @@
 	.solid{
 		border: 1px solid black;
 	}
+	
 	.flex{
 		display: flex;
 		justify-content: space-around;
 	}
+	
 	.headerBar{
 		height: 100px;
 		width: 200px;
