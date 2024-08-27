@@ -5,9 +5,14 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<script type="text/javascript">
+	let msg = "${msg}";
+	if(msg != null) alert(msg);
+</script>
 </head>
 <style>
-.x>div {
+
+	.x>div {
 		border: 1px solid black;
 		width: 200px;
 		height: 200px;
@@ -20,16 +25,14 @@
 	}
 </style>
 <%@ include file="../MAIN/header.jsp"%>
-<h1>room</h1>
-<br>
-<form action="reg" method="post">
+<h1>예약 확인</h1>
+
 	<div class="x">
 		<div></div>
 		<div></div>
 		<div></div>
 	</div>
-	예약하기
-	<input type="submit">
-	</form>
 	
+	<a href="${path}/project">메인으로</a>
+		
 <%@ include file="/WEB-INF/views/MAIN/footer.jsp"%>
